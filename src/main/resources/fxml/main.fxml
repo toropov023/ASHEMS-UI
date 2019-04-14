@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.*?>
+<AnchorPane fx:id="root" styleClass="root" pickOnBounds="false" prefHeight="480.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.uwo20.ui.MainController">
+    <AnchorPane fx:id="container" styleClass="container" layoutX="50" layoutY="25" prefWidth="750" prefHeight="455"/>
+
+    <GridPane fx:id="header" styleClass="header" prefHeight="25.0" prefWidth="800.0">
+        <Label fx:id="dateLabel" styleClass="dateLabel" GridPane.halignment="RIGHT" GridPane.columnIndex="1"
+               GridPane.hgrow="ALWAYS"/>
+
+        <!--<Label GridPane.columnIndex="1"  GridPane.halignment="RIGHT"/>-->
+    </GridPane>
+    <JFXDrawer fx:id="drawer" defaultDrawerSize="200.0" miniDrawerSize="50" prefHeight="480"/>
+</AnchorPane>

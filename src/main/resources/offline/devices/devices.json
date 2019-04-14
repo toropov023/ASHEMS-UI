@@ -1,0 +1,56 @@
+{
+  "devices": [
+    {
+      "name": "SmartPlug Top",
+      "wh": 41,
+      "whMax": 70,
+      "whMin": 0,
+      "toggleable": true,
+      "receptacle": "TOP"
+    },
+    {
+      "name": "SmartPlug Bottom",
+      "wh": 15,
+      "whMax": 50,
+      "whMin": 0,
+      "toggleable": true,
+      "receptacle": "BOTTOM"
+    },
+    {
+      "icon": "TSHIRT_CREW",
+      "name": "Clothes washer",
+      "wh": 247,
+      "whMax": 315,
+      "whMin": 215
+    },
+    {
+      "icon": "FIRE",
+      "name": "Fireplace",
+      "wh": 361,
+      "whMax": 415,
+      "whMin": 315,
+      "turnedOff": true
+    },
+    {
+      "icon": "WATER",
+      "name": "Water heater",
+      "wh": 3752,
+      "whMax": 4000,
+      "whMin": 3000
+    },
+    {
+      "icon": "TSHIRT_CREW",
+      "name": "Clothes dryer",
+      "wh": 468,
+      "whMax": 560,
+      "whMin": 400
+    },
+    {
+      "icon": "TEMPERATURE_CELSIUS",
+      "name": "Baseboard Heater",
+      "wh": 1621,
+      "whMax": 2400,
+      "whMin": 1000
+    }
+  ]
+}
